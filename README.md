@@ -2,7 +2,7 @@
 ![Status do Projeto](https://img.shields.io/badge/Status-Concluido-green)
 
 # Codificador de texto
-Projeto desenvolvido para o Desafio Iniciante em programação / T6-ONE Oracle Next Education em parceria com a Alura.
+Projeto desenvolvido para o Desafio Iniciante em programação / T6-ONE Oracle Next Education em parceria com a Alura. 
 O desafio consiste em construir um codificador/decodificador de texto usando JavaScript.
 
 ## O que foi utilizado 
@@ -24,7 +24,7 @@ O projeto utiliza uma abordagem simples de substituição de caracteres para cod
 | u = ufat                 | ufat = u                    |
     
 ## Demo
-[Visualizar no GitHub Pages](seu-link-aqui)
+[Visualizar no GitHub Pages](https://heningdev.github.io/decodificador-de-texto/)
 
 ## Screenshot
 <img src="screenshot.png" alt="Screenshot" width="500">
