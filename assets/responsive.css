@@ -1,0 +1,80 @@
+/* Media */
+
+@media screen and (min-width: 768px) {
+    .codificador__buttons__container{
+        text-align: start;
+    }
+
+    .codificador__buttons__container button{
+        width: 49.5%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        height: 100vh;
+    }
+
+    main{
+        flex-direction: row;
+        height: 90%;
+        width: 100%;
+    }
+
+    #logo {
+        width: 10%;
+    }
+
+    #codificador {
+        height: 100%;
+        width: 65%;
+    }
+
+    .codificador__title{
+        text-align: start;
+    }
+
+    .codificador__text__input__container {
+        height: 60%;
+    }
+
+    #text-input{
+        height: 100%;
+        width: 95%;
+        overflow: auto;
+    }
+
+    .codificador__buttons__container button{
+        margin: 1em 1em 0 0;
+        width: 40%;
+    }
+
+    .text-output-container{
+        height: 100%;
+        width: 22%;
+    }
+
+    #no-msg-found{
+        width: 85%;
+    }
+
+    #no-msg-found img{
+        width: 100%;
+    }
+
+    #text-output{
+        height: 90%;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .modal-content{
+        width: 40%;
+    }
+
+    footer{
+        gap: 3em;
+        justify-content: center;
+        height: 10%;
+    }
+}

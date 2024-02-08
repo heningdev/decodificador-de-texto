@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Codificador de textos">
+    <meta name="keywords" content="criptografia, descriptografia, modelos de codificação, segurança da informação">
+    <meta name="author" content="Hening">
+
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="shortcut icon" href="assets/lock-solid.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <script defer src="assets/script.js"></script>
+    <script defer src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
+
+    <title>Codificador de textos</title>
+</head>
+
+<body>
+    <header id="logo">
+        <img src="/assets/Logo Alura.png" alt="">
+    </header>
+    <main>
+        <div id="codificador">
+            <div>
+                <h1 class="codificador__title">Codificador de Texto</h1>
+            </div>
+            <div class="codificador__text__input__container">
+                <span id="text-input" role="textbox" contenteditable></span>
+            </div>
+            <div class="codificador__buttons__container">
+                <p class="aviso">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    Apenas letras minúsculas e sem acento.
+                </p>
+                <div>
+                    <button id="encrypt-btn" class="dark-btn">Criptografar</button>
+                    <button id="decrypt-btn" class="light-btn">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-output-container">
+            <div id="no-msg-found">
+                <img src="assets/no-msg-icon.png" alt="Nenhuma mensagem encontrada">
+                <h4>Nenhuma mensagem encontrada</h4>
+                <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+            <span id="text-output" role="textbox" contenteditable="false"></span>
+        </div>
+    </main>
+    
+    <div id="modal" class="hidden">
+        <div class="modal-content">
+            <span id="modal-icon"><i class="fa-solid fa-circle-exclamation"></i></span>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <footer>  
+        <p>Desenvolvido por <a class="github_link" href="https://github.com/heningdev">hng.dev</a> - Desafio <strong>Alura 2024</strong></p>
+        <div class="social_link">
+            <a href="https://www.linkedin.com/in/hening-pereira-a5753a28b/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/heningdev" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
